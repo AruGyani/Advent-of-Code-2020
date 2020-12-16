@@ -16,6 +16,8 @@ int main() {
         while (inputFile >> num) {
             arr.push_back(num);
         }
+
+        inputFile.close();
     } else {
         cout << "There was an error opening the input file." << endl;
     }
